@@ -10,3 +10,10 @@ Through this study, we observed that network flexibility could reduce overage an
 
 ## 2. Analytics Process
 ![image](https://user-images.githubusercontent.com/68145995/110570709-54ed2200-8191-11eb-8031-a73d35bbe15a.png)
+
+## 3. Recommendations
+1. **Flexible lane results in cost savings**. Introduction of a flexible lane network reduced the total overage and underage cost under a non-deterministic demand scenario. We observed a substantial cost reduction when there was network flexibility vis-à-vis a scenario without network flexibility. Hence, we recommend UPS to retain the flexibility in their network if they transition to capacity planning using non-deterministic demand
+
+2. **Capacity planning using non-deterministic demand.** We recommend for UPS to consider adopting a non-deterministic approach for capacity planning purposes, since that could potentially help UPS to lower overage and underage costs. Considering the limited data used in this study, UPS may wish to perform an evaluation based on more forecast and historical demand data to confirm the impact of adopting a non-deterministic approach before implementation. UPS may wish to consider if the additional effort (if any) involved in switching to a non-deterministic approach would make it an endeavour worth pursuing. For our study, we modelled the continuous distribution of demand by leveraging the forecast data; UPS can consider similar approach for evaluating the benefits of network flexibility using more historical data, which would facilitate more accurate demand modelling. In case the demand modelling using the above approach is not feasible, UPS can consider approaches such as discrete modelling or Distributionally Robust Convex Optimization modelling.
+
+3. **Demand modelling impacts the cost error estimation.** In our study, the total cost error, for most of the cases, is lower for the continuous normal distributions – hence, UPS can use this distribution to model the demand instead of discrete approach
